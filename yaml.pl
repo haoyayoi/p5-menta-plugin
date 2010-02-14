@@ -1,9 +1,9 @@
-package MENTA::Plugin::Config;
+package MENTA::Plugin::YAML;
 use MENTA::Plugin;
 use YAML;
 use utf8;
 
-sub config_load {
+sub yaml_load {
     my $path = shift;
     my $data = YAML::LoadFile($path);
     my $yaml = YAML::Dump($data);
