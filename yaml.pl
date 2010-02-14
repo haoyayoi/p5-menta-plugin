@@ -1,7 +1,6 @@
 package MENTA::Plugin::YAML;
 use MENTA::Plugin;
 use YAML;
-use utf8;
 
 sub yaml_load {
     my $path = shift;
