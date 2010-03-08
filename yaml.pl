@@ -10,4 +10,20 @@ sub yaml_load {
     return YAML::Load($yaml);
 }
 
+=head1 NAME
+
+MENTA::Plugin::YAML
+
+=head1 SYNOPSIS
+
+  $output = yaml_load($path);
+
+=head1 AUTHOR
+
+haoyayoi, Soshi Tamura
+
+=head1 SEE ALSO
+
+YAML, MENTA
+
 1;
